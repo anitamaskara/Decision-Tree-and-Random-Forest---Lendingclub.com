@@ -1,10 +1,13 @@
 # Decision-Tree-and-Random-Forest---Lendingclub.com
+
+## Introduction
 Using lending data from 2007-2010, trying to classify and predict whether or not the borrower paid back his/her loan in full.
 
 For this project we will be exploring publicly available data from LendingClub.com. 
 
 Lending Club connects people who need money (borrowers) with people who have money (investors). Hopefully, as an investor you would want to invest in people who showed a profile of having a high probability of paying you back. We will try to create a model that will help predict this.
 
+## Data
 The data can be downloaded from (https://www.lendingclub.com/info/download-data.action). 
 
 After cleaning the data for NAs, the data contains the following variables:
@@ -34,3 +37,4 @@ inq.last.6mths: The borrower's number of inquiries by creditors in the last 6 mo
 delinq.2yrs: The number of times the borrower had been 30+ days past due on a payment in the past 2 years.
 
 pub.rec: The borrower's number of derogatory public records (bankruptcy filings, tax liens, or judgments).
+
